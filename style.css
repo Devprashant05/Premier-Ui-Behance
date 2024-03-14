@@ -14,6 +14,17 @@ body {
     background-color: #f8f8f8;
 }
 
+@font-face {
+    font-family: 'Monument';
+    src: url(./MonumentFont/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Monument-bold';
+    src: url(./MonumentFont/MonumentExtended-Ultrabold.otf);
+}
+
+
 #main {
     height: 100%;
     width: 100%;
@@ -41,7 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: monument extended;
+    font-family: monument-bold;
     font-size: 40px;
     letter-spacing: -2px;
     font-weight: 800;
@@ -133,7 +144,7 @@ body {
 }
 
 #over-1 h1 {
-    font-family: monument extended;
+    font-family: monument-bold;
     font-size: 3.5vw;
 }
 
@@ -280,7 +291,7 @@ body {
 #left h2 {
     text-transform: uppercase;
     font-size: 2.5vw;
-    font-family: monument extended;
+    font-family: monument-bold;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -318,7 +329,7 @@ body {
 }
 
 #page-2 h2 {
-    font-family: monument extended;
+    font-family: monument-bold;
     font-size: 2.5vw;
     text-transform: uppercase;
 }
@@ -414,8 +425,8 @@ body {
 
 #page-5>h1 {
     text-align: center;
-    font-family: monument extended;
-    font-size: 2.5vw;
+    font-family: monument-bold;
+    font-size: 3vw;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 6vw;
@@ -506,7 +517,7 @@ body {
 }
 
 .p6-right h2 {
-    font-family: monument extended;
+    font-family: monument-bold;
     font-size: 2.5vw;
     margin-bottom: 1.5vw;
 }
@@ -555,7 +566,7 @@ body {
 #marque h1 {
     font-size: 3vw;
     font-weight: 900;
-    font-family: monument extended;
+    font-family: monument-bold;
     letter-spacing: 4px;
     text-transform: uppercase;
     /* background-color: blue; */
@@ -600,7 +611,7 @@ body {
     width: 20%;
     height: 100%;
     font-size: 3vw;
-    font-family: monument extended;
+    font-family: monument-bold;
     text-transform: uppercase;
 
 }
@@ -664,7 +675,7 @@ footer .f-content {
     /* background-color: red; */
     width: 25%;
     height: 100%;
-    font-family: monument extended;
+    font-family: monument-bold;
     font-size: 40px;
     letter-spacing: -2px;
     font-weight: 800;
